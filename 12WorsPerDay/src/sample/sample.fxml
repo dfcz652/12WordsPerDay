@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="170.0" layoutY="385.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="160.0" text="Lets Learn">
+         <font>
+            <Font name="Yu Gothic Light" size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="154.0" layoutY="109.0" prefHeight="65.0" prefWidth="193.0" text="12WordsPerDay" textAlignment="CENTER">
+         <font>
+            <Font name="Yu Gothic Light" size="27.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="147.0" layoutY="221.0" mnemonicParsing="false" text="Monday" />
+      <CheckBox layoutX="294.0" layoutY="221.0" mnemonicParsing="false" text="Tuesday" />
+      <CheckBox layoutX="147.0" layoutY="259.0" mnemonicParsing="false" text="Wednesday" />
+      <CheckBox layoutX="295.0" layoutY="259.0" mnemonicParsing="false" text="Thursday" />
+      <CheckBox layoutX="148.0" layoutY="297.0" mnemonicParsing="false" text="Friday" />
+      <CheckBox layoutX="295.0" layoutY="297.0" mnemonicParsing="false" text="Saturday" />
+      <CheckBox layoutX="214.0" layoutY="331.0" mnemonicParsing="false" text="Sunday" />
+   </children>
+</Pane>
