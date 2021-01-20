@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="515.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="147.0" prefHeight="558.0" prefWidth="508.0" style="-fx-background-color: fafafa;">
+         <children>
+            <AnchorPane layoutX="-1.0" prefHeight="558.0" prefWidth="517.0" style="-fx-background-color: d69738;">
+               <children>
+                  <AnchorPane layoutX="-10.0" layoutY="26.0" prefHeight="77.0" prefWidth="527.0" style="-fx-background-color: #2E3348;">
+                     <children>
+                        <Label fx:id="L2" contentDisplay="CENTER" layoutX="40.0" layoutY="-1.0" onMouseEntered="#MEntered" onMouseExited="#MExited" onMousePressed="#MPressed" prefHeight="80.0" prefWidth="448.0" text="Visit regularly throughout the day and learn new words." textFill="#e4a40f" wrapText="true">
+                           <font>
+                              <Font name="Caladea" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label contentDisplay="CENTER" layoutX="35.0" layoutY="201.0" prefHeight="165.0" prefWidth="448.0" text="You will learn 12 words a day, 84 per week, 360 per month and finally you will know 4380 words after 1 year using this app." textFill="#030303" wrapText="true">
+                     <font>
+                        <Font name="Caladea" size="26.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="StartButton" layoutX="117.0" layoutY="395.0" mnemonicParsing="false" onAction="#OpenThatWords" onMousePressed="#MPressed" onMouseReleased="#MReleased" opacity="0.89" prefHeight="67.0" prefWidth="262.0" style="-fx-background-color: #2E3348;" text="Start Learning" textAlignment="CENTER" textFill="#ffd900">
+                     <font>
+                        <Font name="Consolas" size="28.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="BTest1" layoutX="123.0" layoutY="144.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="109.0" text="Button" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <Label fx:id="L1" contentDisplay="CENTER" layoutX="59.0" layoutY="49.0" prefHeight="70.0" prefWidth="401.0" text=" 12 Words Per Day" textFill="#d69738">
+         <font>
+            <Font name="Caladea" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
