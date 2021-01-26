@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="P1Start" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="515.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <AnchorPane fx:id="AP1Start" layoutX="-2.0" layoutY="147.0" prefHeight="558.0" prefWidth="508.0" style="-fx-background-color: fafafa;">
+         <children>
+            <AnchorPane layoutX="-1.0" prefHeight="558.0" prefWidth="517.0" style="-fx-background-color: d69738;">
+               <children>
+                  <AnchorPane layoutX="-10.0" layoutY="26.0" prefHeight="77.0" prefWidth="527.0" style="-fx-background-color: #2E3348;">
+                     <children>
+                        <Label fx:id="L2" contentDisplay="CENTER" layoutX="40.0" layoutY="-1.0" onMouseEntered="#MEntered" onMouseExited="#MExited" onMousePressed="#MPressed" prefHeight="80.0" prefWidth="448.0" text="Visit regularly throughout the day and learn new words." textFill="#e4a40f" wrapText="true">
+                           <font>
+                              <Font name="Caladea" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label contentDisplay="CENTER" layoutX="35.0" layoutY="201.0" prefHeight="165.0" prefWidth="448.0" text="You will learn 12 words a day, 84 per week, 360 per month and finally you will know 4380 words after 1 year using this app." textFill="#030303" wrapText="true">
+                     <font>
+                        <Font name="Caladea" size="26.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="StartButton" layoutX="117.0" layoutY="395.0" mnemonicParsing="false" onAction="#OpenThatWords" onMousePressed="#MPressed" onMouseReleased="#MReleased" opacity="0.89" prefHeight="67.0" prefWidth="262.0" style="-fx-background-color: #2E3348;" text="Start Learning" textAlignment="CENTER" textFill="#ffd900">
+                     <font>
+                        <Font name="Consolas" size="28.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <Label fx:id="L1" contentDisplay="CENTER" layoutX="59.0" layoutY="49.0" prefHeight="70.0" prefWidth="401.0" text=" 12 Words Per Day" textFill="#d69738">
+         <font>
+            <Font name="Caladea" size="48.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="APProsess" layoutX="2.0" prefHeight="695.0" prefWidth="515.0" visible="false">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="23.0" prefHeight="92.0" prefWidth="230.0" text="Today:" textFill="#da0606">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </Label>
+            <Label fx:id="L1Process" layoutX="179.0" layoutY="115.0" prefHeight="92.0" prefWidth="297.0" text="Time machine" textFill="#cd7415">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="171.0" layoutY="284.0" prefHeight="92.0" prefWidth="174.0" text="12Words" textFill="#42b913">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="222.0" prefHeight="67.0" prefWidth="120.0" text="Theme:" textFill="#ae25d0">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="201.0" layoutY="229.0" prefHeight="55.0" prefWidth="286.0" text="Тема по расписанию дней" textFill="#bc9625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="129.0" layoutY="384.0" text="pan-сковорода" textFill="#d7651f" />
+            <Label layoutX="365.0" layoutY="384.0" text="bowl-миска" textFill="#a89226" />
+            <Label layoutX="129.0" layoutY="431.0" text="hood-вытяжка" textFill="#948f40" />
+            <Label layoutX="244.0" layoutY="431.0" text="fridge-холодильник" textFill="#e8ca77" />
+            <Label layoutX="365.0" layoutY="431.0" text="table-стол" textFill="#8a8526" />
+            <Label layoutX="129.0" layoutY="479.0" text="chair-стул" textFill="#5cbc3c" />
+            <Label layoutX="244.0" layoutY="479.0" text="pot-банка" textFill="#25cd36" />
+            <Label layoutX="365.0" layoutY="479.0" text="scoop-черпак" textFill="#33a120" />
+            <Label layoutX="129.0" layoutY="525.0" text="tablecloth-скатерть" textFill="#3bdd17" />
+            <Label layoutX="244.0" layoutY="525.0" text="condiment-приправа" textFill="#3aa819" />
+            <Label layoutX="365.0" layoutY="525.0" text="oven-духовка" textFill="#6c9a2a" />
+            <Label layoutX="244.0" layoutY="384.0" text="plate-плита" textFill="#bf6b25" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
