@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<Pane fx:id="P4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="511.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane fx:id="P4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="511.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <opaqueInsets>
       <Insets />
    </opaqueInsets>
@@ -512,79 +515,71 @@
                   </Label>
                </children>
             </AnchorPane>
-            <Label layoutX="16.0" layoutY="553.0" prefHeight="36.0" prefWidth="276.0" text="11)звать - " textFill="WHITE">
+            <Label layoutX="17.0" layoutY="473.0" prefHeight="36.0" prefWidth="318.0" text="9)спрашивать  " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="17.0" layoutY="593.0" prefHeight="36.0" prefWidth="262.0" text="12)должен - " textFill="WHITE">
+            <Label layoutX="14.0" layoutY="250.0" prefHeight="36.0" prefWidth="225.0" text="4)личный " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="15.0" layoutY="513.0" prefHeight="36.0" prefWidth="318.0" text="10)спрашивать - " textFill="WHITE">
+            <Label layoutX="14.0" layoutY="286.0" prefHeight="36.0" prefWidth="334.0" text="5)всегда " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="18.0" layoutY="472.0" prefHeight="36.0" prefWidth="225.0" text="9)личный - " textFill="WHITE">
+            <Label layoutX="18.0" layoutY="398.0" prefHeight="36.0" prefWidth="334.0" text="7)играть" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="17.0" layoutY="434.0" prefHeight="36.0" prefWidth="334.0" text="8)всегда -" textFill="WHITE">
+            <Label layoutX="3.0" layoutY="360.0" prefHeight="36.0" prefWidth="294.0" text="  6)давать " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="18.0" layoutY="397.0" prefHeight="36.0" prefWidth="334.0" text="7)иногда -" textFill="WHITE">
+            <Label layoutX="18.0" layoutY="436.0" prefHeight="36.0" prefWidth="294.0" text="8)взять " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="3.0" layoutY="360.0" prefHeight="36.0" prefWidth="294.0" text="  6)давать -" textFill="WHITE">
+            <Label layoutX="16.0" layoutY="509.0" prefHeight="36.0" prefWidth="269.0" text="10)хотеть " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="17.0" layoutY="321.0" prefHeight="36.0" prefWidth="294.0" text="5)взять -" textFill="WHITE">
+            <Label layoutX="14.0" layoutY="216.0" prefHeight="36.0" prefWidth="243.0" text="3)история " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="18.0" layoutY="282.0" prefHeight="36.0" prefWidth="269.0" text="4)хотеть -" textFill="WHITE">
+            <Label layoutX="14.0" layoutY="181.0" prefHeight="36.0" prefWidth="252.0" text="2)дерево " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="18.0" layoutY="241.0" prefHeight="36.0" prefWidth="243.0" text="3)история -" textFill="WHITE">
+            <Label layoutX="13.0" layoutY="147.0" prefHeight="36.0" prefWidth="269.0" text="1)город " textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="18.0" layoutY="201.0" prefHeight="36.0" prefWidth="252.0" text="2)дерево -" textFill="WHITE">
+            <TextField fx:id="SundayTF1" layoutX="333.0" layoutY="153.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF2" layoutX="333.0" layoutY="187.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF3" layoutX="333.0" layoutY="222.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF4" layoutX="333.0" layoutY="257.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF5" layoutX="333.0" layoutY="293.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF6" layoutX="333.0" layoutY="364.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF7" layoutX="333.0" layoutY="400.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF8" layoutX="333.0" layoutY="438.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF9" layoutX="333.0" layoutY="474.0" style="-fx-background-color: #d1b036;" />
+            <TextField fx:id="SundayTF10" layoutX="333.0" layoutY="513.0" style="-fx-background-color: #d1b036;" />
+            <Button fx:id="SundayB1" layoutX="118.0" layoutY="575.0" mnemonicParsing="false" onMouseClicked="#EndOfTestMessageDialog" prefHeight="70.0" prefWidth="243.0" style="-fx-background-color: #d1b036;" text="Проверить" textAlignment="CENTER">
                <font>
-                  <Font name="System Bold" size="25.0" />
-               </font>
-            </Label>
-            <Label layoutX="16.0" layoutY="163.0" prefHeight="36.0" prefWidth="269.0" text="1)город -" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="25.0" />
-               </font>
-            </Label>
-            <TextField fx:id="SundayTF1" layoutX="333.0" layoutY="169.0" />
-            <TextField fx:id="SundayTF2" layoutX="333.0" layoutY="207.0" />
-            <TextField fx:id="SundayTF3" layoutX="333.0" layoutY="247.0" />
-            <TextField fx:id="SundayTF4" layoutX="333.0" layoutY="288.0" />
-            <TextField fx:id="SundayTF5" layoutX="333.0" layoutY="331.0" />
-            <TextField fx:id="SundayTF6" layoutX="333.0" layoutY="366.0" />
-            <TextField fx:id="SundayTF7" layoutX="333.0" layoutY="403.0" />
-            <TextField fx:id="SundayTF8" layoutX="333.0" layoutY="440.0" />
-            <TextField fx:id="SundayTF9" layoutX="333.0" layoutY="478.0" />
-            <TextField fx:id="SundayTF10" layoutX="333.0" layoutY="519.0" />
-            <TextField fx:id="SundayTF11" layoutX="333.0" layoutY="559.0" />
-            <TextField fx:id="SundayTF12" layoutX="333.0" layoutY="599.0" />
-            <Button fx:id="SundayB1" layoutX="253.0" layoutY="648.0" mnemonicParsing="false" onMouseClicked="#EndOfTestMessageDialog" text="ПОЩИТАТЬ" />
+                  <Font size="27.0" />
+               </font></Button>
+            <AnchorPane layoutX="-6.0" layoutY="334.0" prefHeight="19.0" prefWidth="523.0" style="-fx-background-color: fff;" />
          </children>
       </AnchorPane>
    </children>
